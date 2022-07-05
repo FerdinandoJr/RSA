@@ -18,7 +18,7 @@ public class Criptografa {
         String msg;
 
         /* PEGA A MENSAGEM */
-        BufferedReader bf = new BufferedReader(new FileReader(path+"file.txt"));
+        BufferedReader bf = new BufferedReader(new FileReader(path+"msg.txt"));
         String s = "";
         String x;
         while ((x = bf.readLine()) != null){
